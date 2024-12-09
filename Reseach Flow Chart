@@ -1,0 +1,44 @@
+#Research Flow 
+
+Problem Identification
+
+Identify challenges in streamflow prediction in boreal climate regions.
+Highlight limitations of existing models like LSTM in addressing complex dynamics.
+Study Area Selection
+
+Select the Upper Humber River Watershed (UHRW), Newfoundland, Canada.
+Collect geographic, hydrological, and climate data specific to the region.
+Data Collection and Preprocessing
+
+Collect historical data (e.g., streamflow, precipitation, Tmax, Tmin, relative humidity).
+Handle missing values, normalize variables, and split data into training, validation, and testing sets.
+Model Development
+
+Design the Transformer model architecture:
+Encoder-decoder structure for temporal feature extraction.
+Attention mechanisms to focus on critical data patterns.
+Optimize hyperparameters for improved performance.
+Model Training
+
+Train the Transformer model on the preprocessed dataset.
+Use advanced techniques like dropout and regularization to prevent overfitting.
+Performance Evaluation
+
+Evaluate the model using metrics:
+Nash-Sutcliffe Efficiency (NSE)
+Root Mean Squared Error (RMSE)
+Mean Absolute Error (MAE)
+Coefficient of Determination (R²)
+Compare performance with LSTM and other models.
+Result Interpretation
+
+Analyze the model’s ability to capture seasonal and extreme flow events.
+Discuss how the Transformer model adapts to boreal climate dynamics.
+Application
+
+Provide insights for water resource management in the UHRW.
+Propose strategies for using the model in climate impact studies.
+Conclusion and Future Work
+
+Summarize findings and improvements in prediction accuracy.
+Recommend future research directions (e.g., integrating more climatic indices, developing hybrid models).
